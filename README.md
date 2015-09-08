@@ -24,10 +24,17 @@ After that, just run
 
     mvn clean install jetty:run
 
-Then the Authorization Service is available at
+Then the Connect Auth Service is available at
 
 	http://localhost:9202/
 
 ### Community
 
+Website: https://xdi2.org/
+
 Google Group: http://groups.google.com/group/xdi2
+
+Weekly Call: [Thursdays at 4pm US Eastern Time](https://github.com/projectdanube/xdi2/wiki/XDI2-Weekly-Call)
+
+IRC: [irc://irc.freenode.net:6667/xdi](http://webchat.freenode.net?randomnick=1&channels=%23xdi)
+
