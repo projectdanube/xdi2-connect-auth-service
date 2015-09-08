@@ -62,7 +62,7 @@
 					<systemProperties>
 						<systemProperty>
 							<name>jetty.port</name>
-							<value>9201</value>
+							<value>9202</value>
 						</systemProperty>
 						<systemProperty>
 							<name>slf4j</name>
