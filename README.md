@@ -14,6 +14,7 @@ This is part of a set of projects related to XDI Connect:
 
 ### Information
 
+TODO
 
 ### How to build
 
@@ -27,6 +28,39 @@ After that, just run
 Then the Connect Auth Service is available at
 
 	http://localhost:9202/
+
+### How to use
+
+Maven repository for releases:
+
+        <repositories>
+                <repository>
+                        <id>XDI2</id>
+                        <name>XDI2-releases</name>
+                        <url>https://artifactory.xdi2.org/xdi2-releases-local</url>
+                </repository>
+        </repositories>
+
+Maven repository for snapshots:
+
+        <repositories>
+                <repository>
+                        <id>XDI2</id>
+                        <name>XDI2-releases</name>
+                        <url>https://artifactory.xdi2.org/xdi2-snapshot-local</url>
+                </repository>
+        </repositories>
+
+Maven dependencies:
+
+        <dependencies>
+                <dependency>
+                        <groupId>xdi2</groupId>
+                        <artifactId>xdi2-connect-auth-service</artifactId>
+                        <version>... version here ...</version>
+                        <scope>compile</scope>
+                </dependency>
+        </dependencies>
 
 ### Community
 
